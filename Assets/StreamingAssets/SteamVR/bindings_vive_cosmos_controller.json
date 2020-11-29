@@ -10,56 +10,9 @@
     "/actions/default": {
       "chords": [],
       "poses": [],
-      "haptics": [
-        {
-          "output": "/actions/default/out/haptic",
-          "path": "/user/hand/left/output/haptic"
-        },
-        {
-          "output": "/actions/default/out/haptic",
-          "path": "/user/hand/right/output/haptic"
-        }
-      ],
-      "sources": [
-        {
-          "path": "/user/hand/left/input/joystick",
-          "mode": "dpad",
-          "parameters": {
-            "deadzone_pct": "25",
-            "overlap_pct": "30",
-            "sub_mode": "touch"
-          },
-          "inputs": {
-            "north": {
-              "output": "/actions/default/in/teleport"
-            }
-          }
-        },
-        {
-          "path": "/user/hand/right/input/joystick",
-          "mode": "dpad",
-          "parameters": {
-            "deadzone_pct": "25",
-            "overlap_pct": "30",
-            "sub_mode": "touch"
-          },
-          "inputs": {
-            "north": {
-              "output": "/actions/default/in/teleport"
-            }
-          }
-        }
-      ],
-      "skeleton": [
-        {
-          "output": "/actions/default/in/skeletonlefthand",
-          "path": "/user/hand/left/input/skeleton/left"
-        },
-        {
-          "output": "/actions/default/in/skeletonrighthand",
-          "path": "/user/hand/right/input/skeleton/right"
-        }
-      ]
+      "haptics": [],
+      "sources": [],
+      "skeleton": []
     },
     "/actions/platformer": {
       "chords": [],

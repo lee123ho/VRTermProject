@@ -1,36 +1,8 @@
 {
-  "actions": [
-    {
-      "name": "/actions/default/in/Teleport",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/default/in/Grab",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/default/in/SkeletonLeftHand",
-      "type": "pose",
-      "skeleton": "/skeleton/hand/left"
-    },
-    {
-      "name": "/actions/default/in/SkeletonRightHand",
-      "type": "pose",
-      "skeleton": "/skeleton/hand/right"
-    },
-    {
-      "name": "/actions/default/in/HeadsetOnHead",
-      "type": "boolean",
-      "requirement": "optional"
-    },
-    {
-      "name": "/actions/default/out/Haptic",
-      "type": "vibration"
-    }
-  ],
+  "actions": [],
   "action_sets": [
     {
-      "name": "/actions/default",
+      "name": "/actions/d",
       "usage": "single"
     }
   ],
@@ -86,12 +58,7 @@
   ],
   "localization": [
     {
-      "language_tag": "en_US",
-      "/actions/default/in/HeadsetOnHead": "Headset on head (proximity sensor)",
-      "/actions/default/in/SkeletonLeftHand": "Skeleton (Left)",
-      "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",
-      "/actions/default/in/Teleport": "Teleport",
-      "/actions/default/out/Haptic": "Haptic"
+      "language_tag": "en_US"
     }
   ]
 }
