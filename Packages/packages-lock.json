@@ -13,7 +13,7 @@
       "dependencies": {}
     },
     "com.unity.ads": {
-      "version": "3.4.9",
+      "version": "3.5.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -22,7 +22,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.analytics": {
-      "version": "3.3.5",
+      "version": "3.5.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -54,44 +54,64 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.2",
+      "version": "2.0.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.1",
+      "version": "1.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer-hlapi": {
-      "version": "1.0.2",
+      "version": "1.0.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "nuget.mono-cecil": "0.1.5-preview"
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.probuilder": {
+      "version": "4.4.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.progrids": {
+      "version": "3.0.3-preview.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.purchasing": {
-      "version": "2.0.6",
+      "version": "2.1.1",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
-    "com.unity.subsystemregistration": {
-      "version": "1.0.6",
+    "com.unity.settings-manager": {
+      "version": "1.0.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.16",
+      "version": "1.1.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -128,34 +148,20 @@
     },
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.4",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.xr.management": {
-      "version": "3.2.16",
+    "com.unity.xr.openvr.standalone": {
+      "version": "2.0.5",
       "depth": 0,
       "source": "registry",
-      "dependencies": {
-        "com.unity.xr.legacyinputhelpers": "2.1.2",
-        "com.unity.subsystemregistration": "1.0.6"
-      },
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.valvesoftware.unity.openvr": {
-      "version": "1.0.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.xr.management": "3.2.13",
-        "com.unity.ugui": "1.0.0",
-        "com.unity.xr.legacyinputhelpers": "2.1.4"
-      },
-      "url": "https://registry.npmjs.org"
-    },
     "nuget.mono-cecil": {
-      "version": "0.1.5-preview",
+      "version": "0.1.6-preview",
       "depth": 1,
       "source": "registry",
       "dependencies": {},

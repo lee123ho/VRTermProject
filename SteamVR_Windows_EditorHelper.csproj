@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AAB2485D-B269-60F4-2BCF-3F8314187132}</ProjectGuid>
+    <ProjectGuid>{8101D524-F6BE-B09B-DEE8-2D7FA6F4F93E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR_Windows_EditorHelper</AssemblyName>
@@ -47,6 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.3</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.1.4f1</UnityVersion>
@@ -261,16 +262,13 @@
       <HintPath>Assets\SteamVR\Input\Plugins\JSON.NET\Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>Library\PackageCache\com.unity.purchasing@2.0.6\Editor\UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll</HintPath>

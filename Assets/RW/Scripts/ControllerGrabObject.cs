@@ -41,6 +41,7 @@ public class ControllerGrabObject : MonoBehaviour
             return;
         }
         // 2
+        col.tag = "Player";
         collidingObject = col.gameObject;
     }
 
@@ -63,7 +64,7 @@ public class ControllerGrabObject : MonoBehaviour
         {
             return;
         }
-
+        collidingObject.tag = "Untagged";
         collidingObject = null;
     
     }

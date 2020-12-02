@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DC434799-5C79-7857-5F73-28E5939EED7D}</ProjectGuid>
+    <ProjectGuid>{154FFC25-CBC3-317B-752B-79BCD273B40D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR_Actions</AssemblyName>
@@ -47,6 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.3</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.1.4f1</UnityVersion>
@@ -57,7 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Actions.cs" />
     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Initialization.cs" />
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_d.cs" />
+    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_default.cs" />
     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_ActionSets.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -264,16 +265,13 @@
       <HintPath>Assets\SteamVR\Input\Plugins\JSON.NET\Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>Library\PackageCache\com.unity.purchasing@2.0.6\Editor\UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.4f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -629,7 +627,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{DEF20BEC-95DF-03DD-8E4D-8171E71ACE6E}</Project>
+      <Project>{910DC6E4-0369-3A2E-D28E-B4C8ED29A978}</Project>
       <Name>SteamVR</Name>
     </ProjectReference>
   </ItemGroup>

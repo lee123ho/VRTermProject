@@ -17,21 +17,21 @@ namespace Valve.VR
     public partial class SteamVR_Actions
     {
         
-        private static SteamVR_Input_ActionSet_d p_d;
+        private static SteamVR_Input_ActionSet_default p__default;
         
-        public static SteamVR_Input_ActionSet_d d
+        public static SteamVR_Input_ActionSet_default _default
         {
             get
             {
-                return SteamVR_Actions.p_d.GetCopy<SteamVR_Input_ActionSet_d>();
+                return SteamVR_Actions.p__default.GetCopy<SteamVR_Input_ActionSet_default>();
             }
         }
         
         private static void StartPreInitActionSets()
         {
-            SteamVR_Actions.p_d = ((SteamVR_Input_ActionSet_d)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_d>("/actions/d")));
+            SteamVR_Actions.p__default = ((SteamVR_Input_ActionSet_default)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_default>("/actions/default")));
             Valve.VR.SteamVR_Input.actionSets = new Valve.VR.SteamVR_ActionSet[] {
-                    SteamVR_Actions.d};
+                    SteamVR_Actions._default};
         }
     }
 }
