@@ -7,6 +7,7 @@ public class fadeOut : MonoBehaviour
     [SerializeField] private Transform _target;
     private key _key;
     private Renderer _material;
+    private float _alpha;
 
     private void Awake()
     {
@@ -17,10 +18,13 @@ public class fadeOut : MonoBehaviour
     void Update()
     {
         _key = FindObjectOfType<key>();
-        if (_key.active)
+        if (_key != null)
         {
-            transform.position = _target.position;
-            _material.material.color = new Color(0f, 0f, 0f, 1f); 
+            if (_key.active)
+            {
+                transform.position = _target.position;
+                _material.material.color = new Color(0f, 0f, 0f, _alpha += 0.001f);
+            } 
         }
     }
 }
